@@ -14,7 +14,7 @@
  * Automatically generated from STM32WL5MOCHx.xml
  * CubeMX DB release 6.0.90
  */
-#if defined(ARDUINO_WL5MOCHA)
+#if defined(ARDUINO_BWL5MSUBG1)
 #include "Arduino.h"
 #include "PeripheralPins.h"
 
