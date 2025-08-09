@@ -1,0 +1,39 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32WLxx -DSTM32WLE5xx",
+    "f_cpu": "48000000L",
+    "framework_extra_flags": {
+      "arduino": "-DUSE_CM4_STARTUP_FILE"
+    },
+    "mcu": "stm32wl5moch",
+    "product_line": "STM32WL5Mxx",
+    "variant": "STM32WLxx/WL5MOCH"
+  },
+  "debug": {
+    "default_tools": [
+      "stlink"
+    ],
+    "jlink_device": "STM32WL55JC",
+    "openocd_target": "stm32wlx",
+    "svd_path": "STM32WL5x_CM4.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "B-WL5M-SUBG1",
+  "upload": {
+    "maximum_ram_size": 65536,
+    "maximum_size": 262144,
+    "protocol": "stlink",
+    "protocols": [
+      "jlink",
+      "cmsis-dap",
+      "stlink",
+      "mbed"
+    ]
+  },
+  "url": "https://www.st.com/en/evaluation-tools/b-wl5m-subg1.html",
+  "vendor": "ST"
+}
